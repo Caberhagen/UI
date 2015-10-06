@@ -290,6 +290,10 @@ define ("GER_TEXT130", ' startet eine neue Kolonie!');
 
 define ("GER_TEXT131", '<span style="color: #CC6600;">orange</span> - unabh&auml;ngige Kolonie<br>');
 
+define ("GER_TEXT132", 'Systeme');
+
+define ("GER_TEXT133", 'distance: ');
+
 
 //English
 define ("ENG_TEXT0", 'Tactical headquarters:');
@@ -560,6 +564,10 @@ define ("ENG_TEXT130", ' starts a new independent colony!');
 
 define ("ENG_TEXT131", '<span style="color: #CC6600;">arancio</span> - Pianeta Indipendente<br>');
 
+define ("ENG_TEXT132", 'System');
+
+define ("ENG_TEXT133", 'distance: ');
+
 //Italiano
 define ("ITA_TEXT0", 'Comando Tattico:');
 
@@ -574,6 +582,8 @@ define ("ITA_TEXT4", 'Colonizzazione');
 define ("ITA_TEXT4a", 'Sistemi conosciuti');
 
 define ("ITA_TEXT5", 'Sensori');
+
+define ("ITA_TEXT5a", 'Ricerca');
 
 define ("ITA_TEXT6", 'Cosa vuoi attualmente?');
 
@@ -828,5 +838,9 @@ define ("ITA_TEXT129", ' una unit&agrave; colonizzatrice di ');
 define ("ITA_TEXT130", ' realizza una colonia indipendente!');
 
 define ("ITA_TEXT131", '<span style="color: #CC6600;">arancio</span> - Pianeta Indipendente<br>');
+
+define ("ITA_TEXT132", 'Sistema');
+
+define("ITA_TEXT133", 'distanza: ');
 
 ?>

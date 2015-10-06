@@ -222,13 +222,13 @@ $SHIP_TORSO_LOCALE = array(
 
 			),
 
-    	// Morte temporanea
+    	// T'Varo
 
 	    6 => array(
 
-			0 => 'Science',  // Name
+			0 => 'T&acute;varo',  // Name
 
-			1 => 'Io non sono qui. Ma &egrave; necessario disporre di me cari, mantenermi, darmi da mangiare e portarmi spesso a fare un giro.',
+			1 => 'La classe T&acute;varo &egrave; totalmente orientata al combattimento. Armata con armi di ultimissima generazione quali il cannone al plasma e capace di sostenere altissime velocit&agrave;, rappresenta un temibile avversario per ogni vascello leggero nella galassia e anche qualcosa di pi&ugrave;.',
 
 			),
 
@@ -262,13 +262,13 @@ $SHIP_TORSO_LOCALE = array(
 
 			),
 
-    	// Morte temporanea
+    	// Mogai class
 
 	    10 => array(
 
-			0 => 'D&acute;deridex',  // Name
+			0 => 'Mogai',  // Name
 
-			1 => 'Io non sono qui. Ma &egrave; necessario disporre di me cari, mantenermi, darmi da mangiare e portarmi spesso a fare un giro.',
+			1 => 'La classe Mogai riprende il disegno della fortunata classe Norexan apportando notevoli migliorie strutturali all&#146;armatura e alla struttura interna.',
 
 			),
 
@@ -854,6 +854,14 @@ $SHIP_TORSO_LOCALE = array(
 
 		),
 
+		9 => array(
+
+			0 => 'Cubo Borg',  // Name
+
+			1 => 'Il Cubo Borg &egrave; l&#146;astronave pi&ugrave; comune di questa razza. Il Cubo ha una dimensione di circa 3 chilometri di lato, l&#146;aspetto esteriore &egrave; quello di una superficie uniforme di condotti e strutture priva di elementi distintivi, come se l&#146;astronave fosse perennemente incompleta.',
+
+		),        
+        
 		10 => array(
 
 			0 => 'Cubo Borg',  // Name
@@ -1115,13 +1123,13 @@ $SHIP_TORSO_LOCALE = array(
 
 		),
 			
-		// Morte temporanea
+		// Venatic Class
 
 	    9 => array(
 
-			0 => 'Incrociatore pesante',  // Name
+			0 => 'Venatic',  // Name
 
-			1 => 'Io non sono qui. Ma &egrave; necessario disporre di me cari, mantenermi, darmi da mangiare e portarmi spesso a fare un giro.',
+			1 => 'La classe Venatic &egrave; la pi&ugrave potente nave da guerra hirogeni. Nonostante le piccole dimensioni (appena 600 metri), spicca tra tutte le navi hirogeni. Lo scafo estremamente pesante compensa i deboli scudi montati. L&#146;armamento rende questa nave un avversario temibile per qualunque avversario.',
 
 		),
 			
@@ -1519,14 +1527,6 @@ $SHIP_TORSO_LOCALE = array(
 
 		),
 
-		11 => array(
-
-			0 => 'Prometheus',
-
-			1 => 'Dopo quasi 300 anni la Prometheus &egrave; stata messa fuori servizio, tuttavia &egrave; stata nuovamente riattivata per le operazioni nel passato',
-
-		),
-
 		4 => array(
 
 			0 => 'Wells',
@@ -1553,6 +1553,16 @@ $SHIP_TORSO_LOCALE = array(
 
 		),
 
+		// Achilles
+
+		9 => array(
+
+			0 => 'Achilles',  // Name
+
+			1 => 'Nave da battaglia di discrete prestazioni, prodotta in svariati cantieri navali indipendenti con compiti di difesa delle colonie.',
+
+		),            
+            
 		11 => array(
 
 			0 => 'Achilles',
