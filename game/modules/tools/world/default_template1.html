@@ -1,4 +1,4 @@
-<!-- Skin STFC Modified -->
+<!-- Skin STFC2 Modified -->
 <!-- @Version 1.8 -->
 <!-- Changelog: -->
 <!-- 1.1 ||Allyforum hinzugefügt|| -->
@@ -175,7 +175,7 @@ hr { border: 1px solid #c0c0c0; }
 <a href={U_SUPPORTCENTER}><b>{L_SUPPORTCENTER}</b></a><br>
 <a href={U_ADMINPANEL}><b>{L_ADMINPANEL}</b></a><br> --> </fieldset>
 <br>
-<fieldset><legend>{T_NEXTTICK}</legend><br>
+<fieldset><legend><span class="text_medium">{T_NEXTTICK}</span></legend><br>
 <center><span style="color: #ffff00;">{NEXT_TICK_HTML}</span></center><br></fieldset>
 <br>
 
@@ -240,13 +240,13 @@ hr { border: 1px solid #c0c0c0; }
 <img src="{GFX_PATH}menu_metal_small.gif"> <span class="text_medium">{ACTIVE_PLANET_METAL} / {ACTIVE_PLANET_MAXRES}</span><br>
 <img src="{GFX_PATH}menu_mineral_small.gif"> <span class="text_medium">{ACTIVE_PLANET_MINERALS} / {ACTIVE_PLANET_MAXRES}</span><br>
 <img src="{GFX_PATH}menu_latinum_small.gif"> <span class="text_medium">{ACTIVE_PLANET_LATINUM} / {ACTIVE_PLANET_MAXRES}</span><br>
-<img src="{GFX_PATH}menu_worker_small.gif"> <span class="text_medium">{ACTIVE_PLANET_WORKER} / {ACTIVE_PLANET_MAXWORKER}</span><br>
+<img src="{GFX_PATH}menu_worker_small.gif"> <span class="text_medium">{ACTIVE_PLANET_WORKER} <!-- / {ACTIVE_PLANET_MAXWORKER} --> </span><br>
 </fieldset>
 
 <br>
 
 
-<fieldset><legend>{T_TROOPS}</legend>
+<fieldset><legend><span class="text_medium">{T_TROOPS}</span></legend>
 												<img border=0 src={GFX_PATH}menu_unit1_small.gif> <span class="text_medium"><b><font color=#c0c0c0>{ACTIVE_PLANET_UNIT1}</font></b> / <img border=0 src={GFX_PATH}menu_unit1_small.gif> <b>
 
                                                                <!-- ÜBERSCHUSS LV1 -->
@@ -312,8 +312,8 @@ hr { border: 1px solid #c0c0c0; }
 <img src="{GFX_PATH}menu_unit5_small.gif"> <span class="text_medium">{ACTIVE_PLANET_UNIT5}<br>
 <img src="{GFX_PATH}menu_unit6_small.gif"> <span class="text_medium">{ACTIVE_PLANET_UNIT6}<br>
 <br><img src="{GFX_PATH}menu_fight_small.gif"> <span class="text_medium">{ACTIVE_PLANET_TROOPS} / {ACTIVE_PLANET_STRENGTH_REQUIRED}</span><br>
-<img src={GFX_PATH}menu_fight_small.gif><span class="text_medium"> {T_AVOIDREBEL}<FONT size=1 color=#FF0000><b>{ACTIVE_PLANET_STRENGTH_REQUIRED}<b></font><br>
-<span class="text_medium"><img src={GFX_PATH}menu_fight_small.gif>{T_TROOPS}<br>  <FONT size=1 color=#FCFF00><b>{ACTIVE_PLANET_TROOPS}</b></font>/<b><FONT size=1 color=#FFFFFF>{ACTIVE_PLANET_MAXTROOPS}</font></b>
+<img src={GFX_PATH}menu_fight_small.gif><span class="text_medium"> {T_AVOIDREBEL}<FONT color=#FF0000><b>{ACTIVE_PLANET_STRENGTH_REQUIRED}<b></font><br>
+<br><span class="text_medium"><img src={GFX_PATH}menu_fight_small.gif>{T_TROOPS}<br>  <FONT color=#FCFF00><b>{ACTIVE_PLANET_TROOPS}</b></font>/<b><FONT color=#FFFFFF>{ACTIVE_PLANET_MAXTROOPS}</font></b>
 <br></fieldset>
 
 <br>
